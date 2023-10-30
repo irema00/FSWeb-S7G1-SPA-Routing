@@ -70,3 +70,32 @@ body {
   padding: 5px 10px;
   background-color: lightskyblue;
 }
+
+.btn  {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
+.btn:hover {
+  background-color: green;
+  color: white;
+}
+
+button.nav-button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: rgb(251, 140, 62);
+  border: solid 2px rgb(206, 103, 30);
+}
+button.nav-button:focus, .nav-button:active {
+  color: white;
+  text-decoration: none; 
+  outline: none;
+}
